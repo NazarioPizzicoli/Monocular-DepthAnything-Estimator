@@ -1,8 +1,0 @@
-In label vengono salvate le label di ciascun frame.
-Dentro label ci sono 4 cartelle:
-- label_152844 contenente le label di ciascun frame del video
-- label_154149 contenente le label di ciascun frame del video
-- label_161904 contenente le label di ciascun frame del video
-- label_162533 contenente le label di ciascun frame del video
-
-Per farti capire meglio ma non appesantire il tutto, ti ho caricato solo l'esperimento 1.

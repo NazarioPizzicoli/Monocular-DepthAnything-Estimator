@@ -1,0 +1,14 @@
+# Cartelle e file da ignorare
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Modelli e Dati Pesanti
+/data/
+/models/

@@ -1,8 +1,0 @@
-In depth_map_dav2 vengono salvate le depth_map di ciascun frame.
-Dentro depth_map_dav2 ci sono 4 cartelle:
-- relative_exp_1_152844 contenente le depth_map e le depth_map_normalizzate di ciascun frame del video
-- relative_exp_2_154149 contenente le depth_map e le depth_map_normalizzate di ciascun frame del video
-- relative_exp_3_161904 contenente le depth_map e le depth_map_normalizzate di ciascun frame del video
-- relative_exp_4_162533 contenente le depth_map e le depth_map_normalizzate di ciascun frame del video
-
-Per farti capire meglio ma non appesantire il tutto, ti ho caricato solo l'esperimento 1.
