@@ -1,0 +1,24 @@
+# MDE-GitHub/config.yaml
+
+# Modello e Pesi
+model:
+  name: "metric_depth_vit_large" # O 'metric_depth_vit_base' per velocità maggiore
+  weights_path: "" # Non serve più se la libreria gestisce il download
+  input_size: [518, 518] # Il modello DPT standard accetta 518x518
+
+# Parametri della Telecamera/Calibrazione
+camera:
+  focal_length_pixels: 500.0
+  principal_point: [320, 240]
+  known_boa_distance_m: 5.0 # Distanza di riferimento nota della boa più vicina
+
+# Parametri di Inferenza
+inference:
+  device: "cuda" # **Qui scegliamo se usare 'cuda' o 'cpu'**
+  min_distance_m: 0.5
+  max_distance_m: 50.0
+
+# Parametri di Visualizzazione
+visualization:
+  font_scale: 1.0
+  color_bgr: [0, 255, 0] # Verde
