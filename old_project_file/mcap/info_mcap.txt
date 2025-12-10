@@ -1,0 +1,8 @@
+In mcap vengono salvate i file mcap di ciascun esperimento.
+Dentro mcap ci sono 4 file:
+- gps_20251106_153635 contenente il file mcap dell'esperimento
+- gps_20251106_154245 contenente il file mcap dell'esperimento
+- gps_20251106_161835 contenente il file mcap dell'esperimento
+- gps_20251106_162531 contenente il file mcap dell'esperimento
+
+Per farti capire meglio ma non appesantire il tutto, ti ho caricato solo l'esperimento 1.
