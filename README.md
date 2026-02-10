@@ -1,6 +1,6 @@
 # RealTime Monocular Depth Estimation with Metric Calibration
 
-This modular pipeline transforms **Relative Depth Estimation (RDE)** from *Depth Anything V2* into accurate **Metric Depth Estimation (MDE)** in real-time. It integrates **YOLOv11** for object detection, providing distance measurements for every detected object using Ground Control Points (GCP) calibration.
+This modular pipeline transforms **Relative Depth Estimation (RDE)** from **Depth Anything V2** into accurate **Metric Depth Estimation (MDE)** in real-time. It integrates **YOLOv11** for object detection, providing distance measurements for every detected object using Ground Control Points (GCP) calibration.
 
 <p align="center" width="100%">
     <img src="assets/pipeline.gif" width="800" alt="Object detection + Depth Estimation drone in a lake.">
@@ -23,8 +23,9 @@ pip install -r requirements.txt
 
 ### Model Weights
 You must download the model weights and place them in the following directories:
-1. Depth Anything V2: Download checkpoints from the Official Repository and place them in models/Depth-Anything-V2/checkpoints/.
-2. YOLOv11: Download weights (e.g., yolo11n.pt) from Ultralytics Documentation and place them in models/YOLOv11/weights/.
+1. Create a folder called "models"
+2. Clone the Official Repository of DepthAnythingV2 and the model weights and place them in models/Depth-Anything-V2/checkpoints/.
+2. Download YOLOv11 weights from Ultralytics Documentation (or custom one) and place them in models/YOLOv11/weights/.
 
 ## Data Configuration
 The system relies on specific configuration files located in data/preprocessed/ and data/camera_calibration/. The provided files are templates and must be modified by the user.
