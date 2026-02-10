@@ -3,7 +3,7 @@
 This modular pipeline transforms **Relative Depth Estimation (RDE)** from *Depth Anything V2* into accurate **Metric Depth Estimation (MDE)** in real-time. It integrates **YOLOv11** for object detection, providing distance measurements for every detected object using Ground Control Points (GCP) calibration.
 
 <p align="center" width="100%">
-    <img src="assets/pipeline.gif" width="600" alt="Object detection + Depth Estimation drone in a lake.">
+    <img src="assets/pipeline.gif" width="200" alt="Object detection + Depth Estimation drone in a lake.">
 </p>
 
 ## Installation and Requirements
