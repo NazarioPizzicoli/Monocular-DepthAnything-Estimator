@@ -74,3 +74,11 @@ Get Anchor Coordinates:
 Click on the video stream to get (x, y) pixel coordinates for your anchor_points.csv.
 ```bash
 python scripts/streaming/stream_coords.py```
+
+
+#TODO
+
+1. Modify video source or RTSP
+2. Modify camera_position_stream.csv, anchor_points_stream.csv, (or camera_position_video.csv, anchor_points_video.csv in case a video is used), calibration.yaml (video) HAS TO BE 1FPS)
+3. Modify yolo weight
+4. Download yolo e depthanything
