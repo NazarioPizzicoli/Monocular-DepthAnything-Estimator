@@ -10,5 +10,5 @@ tqdm
 mcap
 mcap-ros2-support
 ultralytics
-# Nota: Download Depth Anything V2 weights in models/Depth-Anything-V2/checkpoints
-# Nota: Download YOLOv11 weights (custom or original) in models/YOLOv11/weights
+# Note: Download Depth Anything V2 weights in models/Depth-Anything-V2/checkpoints
+# Note: Download YOLOv11 weights (custom or original) in models/YOLOv11/weights
